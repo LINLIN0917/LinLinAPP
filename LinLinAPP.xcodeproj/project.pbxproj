@@ -11,6 +11,7 @@
 		217DBDC12626A042000218FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DBDC02626A042000218FD /* ContentView.swift */; };
 		217DBDC32626A044000218FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217DBDC22626A044000218FD /* Assets.xcassets */; };
 		217DBDC62626A044000218FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217DBDC52626A044000218FD /* Preview Assets.xcassets */; };
+		217DBDCF2626A07A000218FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217DBDCE2626A07A000218FD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		217DBDC22626A044000218FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		217DBDC52626A044000218FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		217DBDC72626A044000218FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217DBDCE2626A07A000218FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		217DBDBD2626A042000218FD /* LinLinAPP */ = {
 			isa = PBXGroup;
 			children = (
+				217DBDCE2626A07A000218FD /* GoogleService-Info.plist */,
 				217DBDBE2626A042000218FD /* LinLinAPPApp.swift */,
 				217DBDC02626A042000218FD /* ContentView.swift */,
 				217DBDC22626A044000218FD /* Assets.xcassets */,
@@ -128,6 +131,7 @@
 			files = (
 				217DBDC62626A044000218FD /* Preview Assets.xcassets in Resources */,
 				217DBDC32626A044000218FD /* Assets.xcassets in Resources */,
+				217DBDCF2626A07A000218FD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
